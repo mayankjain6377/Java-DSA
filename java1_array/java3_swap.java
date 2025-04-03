@@ -1,10 +1,11 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
- class Swap{
-    void swap(int []arr,int index1,int index3)
+ class Swap<T>{
+    void swap(T []arr,int index1,int index3)
     {
-       int temp=arr[index1];
+         T d;
+       T temp=arr[index1];
        arr[index1]=arr[index3];
        arr[index3]=temp;
        System.out.println(Arrays.toString(arr));
@@ -24,19 +25,14 @@ import java.util.Scanner;
  
 
 
-public class java3_swap {
+public class java3_swap<T> {
     public static void main(String[] args) {
-        int []arr=new int[5];
-        Scanner sc=new Scanner(System.in);        
-        for(int i=0;i<arr.length;i++)
+        int []arr;
 
-        {
-            arr[i]=sc.nextInt();
-        }
        
         //    Get obj=new Get(); 
         Swap obj=new Swap();
-           obj.swap(arr,1,3);
+//           obj.swap(new int[]arr,1,3);
 
     
     }

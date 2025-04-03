@@ -2,8 +2,8 @@ package java3_BinarySearch;
 
 public class java2_CeilingNumber {
     public static void main(String[] args) {
-int [] letters={13,15,19,22,31,33,45,54,57,59,60};
-int target=167;
+int [] letters={13,15,19,22,31,122,45,54,57,59,60};
+int target=31;
 int i=0;
 int start=0;
 int end=letters.length-1;
