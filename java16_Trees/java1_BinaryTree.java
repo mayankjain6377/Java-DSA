@@ -2,9 +2,9 @@ package java16_Trees;
 
 import java.util.Scanner;
 
-public class java1_BinaryTree {
+ class java1_BinaryTree {
 
-    private static class Node {
+     static public class Node {
         private Node left, right;
         int value;
 
